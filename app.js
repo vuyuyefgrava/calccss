@@ -16,6 +16,8 @@ const sevenBtn = document.getElementById('seven')
 const eightBtn = document.getElementById('eight')
 const nineBtn = document.getElementById('nine')
 const zeroBtn = document.getElementById('null')
+
+console.log(oneBtn)
 let action = "+"
 let numbers = ""
     
@@ -66,7 +68,6 @@ sevenBtn.onclick = function () {
 eightBtn.onclick = function () {
     numbers = '8'
 }
-
 
 
 function printScoreboard (number) {
