@@ -9,6 +9,7 @@ body{
     top: 300px;
 }
 
+
 #resultNumber{
     position: relative;
     display: block;
@@ -62,4 +63,35 @@ body{
 
 #input2:focus{
     width: 300px;
+}
+
+#one{
+    background-color: lightblue;
+}
+#two{
+    background-color: lightblue;
+}
+#three{
+    background-color: lightblue;
+}
+#four{
+    background-color: lightblue;
+}
+#five{
+    background-color: lightblue;
+}
+#six{
+    background-color: lightblue;
+}
+#seven{
+    background-color: lightblue;
+}
+#eight{
+    background-color: lightblue;
+}
+#nine{
+    background-color: lightblue;
+}
+#null{
+    background-color: lightblue;
 }
