@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="align">
+        <h1 id="title">Калькулятор</h1>
+        <input 
+        type="number"
+        placeholder="Введите число 1"
+        id="input1"
+        value="10"
+        />
+        <input
+        type="number"
+        placeholder="Введите число 2"
+        id="input2"
+        value="5"
+        />
+        <div class="numbers">
+            <table>
+                <tr>
+                    <td><button id="one">1</button></td>
+                    <td><button id="two">2</button></td>
+                    <td><button id="three">3</button></td>
+                </tr>
+                <tr>
+                    <td><button id="four">4</button></td>
+                    <td><button id="five">5</button></td>
+                    <td><button id="six">6</button></td>
+                </tr>
+                <tr>
+                    <td><button id="seven">7</button></td>
+                    <td><button id="eight">8</button></td>
+                    <td><button id="ten">9</button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="null">0</button></td>
+                    <td></td>
+                </tr>
+        </table>
+        </div>
+        <div class="actions">
+            <button id="plus">+</button>
+            <button id="minus">-</button>
+            <button id="multiply">x</button>
+            <button id="divide">:</button>
+        </div>
+        <button id="submit">Вычислить</button>
+        <div class="result">
+            <h4 id="resultText">Результат:</h4>
+            <p id="resultNumber">49</p>
+        </div>
+    </div>
+</body>
+</html>

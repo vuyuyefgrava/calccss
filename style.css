@@ -1,0 +1,65 @@
+body{
+    background-color: lightblue;
+}
+
+.align{
+    position: relative;
+    display: block;
+    justify-items: center;
+    top: 300px;
+}
+
+#resultNumber{
+    position: relative;
+    display: block;
+    left: 27px;
+}
+
+.actions{
+    padding: 10px;
+}
+
+#plus{
+    background-color: lightblue;
+}
+
+#minus{
+    background-color: lightblue;
+}
+
+#multiply{
+    background-color: lightblue;
+}
+
+#divide{
+    background-color: lightblue;
+}
+
+#submit{
+    height: 30px;
+    width: auto;
+    background-color: lightblue;
+}
+
+#resultText{
+    margin: 10px;
+}
+
+#input1{
+    width: 100px;
+    transition: 1.5s;
+}
+
+#input2{
+    width: 100px;
+    transition: 1.5s;
+}
+
+#input1:focus{
+    width: 300px;
+    
+}
+
+#input2:focus{
+    width: 300px;
+}
