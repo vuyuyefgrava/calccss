@@ -16,8 +16,6 @@ const sevenBtn = document.getElementById('seven')
 const eightBtn = document.getElementById('eight')
 const nineBtn = document.getElementById('nine')
 const zeroBtn = document.getElementById('null')
-
-console.log(oneBtn)
 let action = "+"
 let numbers = ""
     
@@ -69,13 +67,7 @@ eightBtn.onclick = function () {
     numbers = '8'
 }
 
-nineBtn.onclick = function () {
-    numbers = '9'
-}
 
-zeroBtn.onclick = function () {
-    numbers = '0'
-}
 
 function printScoreboard (number) {
     let scoreBoard  = Number(number.value)
@@ -103,12 +95,6 @@ function printScoreboard (number) {
     }
     else if (numbers == "8") {
         scoreBoard += 8
-    }
-    else if (numbers == "9") {
-        scoreBoard += 9
-    }
-    else if (numbers == "0") {
-        scoreBoard += 0
     }
 }
 
